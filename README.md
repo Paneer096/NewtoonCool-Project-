@@ -7,3 +7,9 @@ This project is an interactive simulator designed to visualize the behavior of *
 * **Dynamic Parameter Tracking:** The application shows exactly how changing one or multiple physical parameters—such as the **Initial Temperature ($T_0$)**, **Ambient/Room Temperature ($T_s$)**, or the **Cooling Rate ($k$)**—instantly alters the overall shape, slope, and pattern of the main temperature graph.
 * **Dual-Plot Feedback:** To provide complete physical insight, the simulator features a second graph that tracks the **instantaneous rate of cooling ($dT/dt$)**. 
 * **Real-Time Visual Updates:** As you adjust the parameters via the user interface, both graphs update simultaneously. This gives immediate feedback on how the *speed* of heat loss slows down as the object's temperature approaches the temperature of its surroundings.
+
+### Built With
+
+This project relies on the following core Python libraries to handle data calculation and the interactive user interface:
+* **Matplotlib:** Powers the dual-plot graphical interface, real-time dynamic rendering, and interactive UI control sliders.
+* **NumPy:** Handles efficient vector arrays and exact scientific calculations for the exponential thermodynamic decay curves.
