@@ -101,7 +101,7 @@ stats_text = ax_stats.text(
     fontsize=9, va="top", fontfamily="monospace", color="#202124",
     bbox=dict(boxstyle="round,pad=0.6", facecolor="#e8f0fe", edgecolor="#c5cae9", lw=0.8)
 )
-ax_stats.set_title("Key Statistics", fontsize=9, color="#202124", pad=4, y=0.08)
+ax_stats.set_title("Key Statistics", fontsize=9, color="#202124", pad=4, y=0.15)
 
 
 def update_stats(T0, Ts, k, t_max):
